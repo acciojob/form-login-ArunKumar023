@@ -1,6 +1,6 @@
 function getFormvalue() {
-  const firstName = document.forms["form1"]["fname"].value;
-  const lastName = document.forms["form1"]["lname"].value;
-  
+  const firstName = document.querySelector('input[name="fname"]').value;
+  const lastName = document.querySelector('input[name="lname"]').value;
+
   alert(`First Name: ${firstName}\nLast Name: ${lastName}`);
 }

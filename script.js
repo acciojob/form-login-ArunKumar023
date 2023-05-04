@@ -1,8 +1,9 @@
 function getFormvalue() {
     //Write your code here
 
-	var a = document.getElementById("firstName").value;
-	var b = document.getElementById("lastName").value;
+	 let fname = document.querySelector("input[name='fname']").value;
+    let lname = document.querySelector("input[name='lname']").value
 
-	alert(a+" "+b);
+    alert(fname + " " + lname);
+
 }

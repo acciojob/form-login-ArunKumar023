@@ -1,9 +1,7 @@
-function getFormvalue() {
+functifunction getFormvalue() {
     //Write your code here
+	var firstName = document.forms["form1"]["fname"].value;
+    var lastName = document.forms["form1"]["lname"].value;
 
-	 let fname = document.querySelector("input[name='fname']").value;
-    let lname = document.querySelector("input[name='lname']").value
-
-    alert(fname + " " + lname);
-
+	alert(firstName + " " + lastName);
 }
